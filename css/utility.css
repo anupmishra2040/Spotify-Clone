@@ -1,0 +1,64 @@
+.border{
+    border:2px solid red  ;
+    margin: 3px;
+}
+  .flex{
+    display: flex;
+
+  }
+  .justify-center{
+    justify-content: center;
+  }
+  .items-center{
+    align-items:center;
+  }
+  .bg-black{
+    background-color: black;
+    color: white;
+  }
+  .invert{
+    filter: invert(1);
+  }
+  .bg-grey{
+    background:#121212;
+  }
+  .rounded{
+    border-radius: 7px;
+  }
+  .m-1{
+    margin: 5px;
+  }
+  .p-1{
+    padding: 4px;
+  }
+/* WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px;  /* Custom width for the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1a1a1a;  /* Dark background for the scrollbar track */
+  border-radius: 10px;  /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #444;  /* Thumb color to match a dark theme */
+  border-radius: 10px;  /* Rounded corners for the thumb */
+  border: 3px solid #1a1a1a; /* Matches the track's background for separation */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666;  /* Slightly brighter on hover */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;  /* Thin scrollbar for a sleeker look */
+  scrollbar-color: #444 #1a1a1a;  /* Thumb color and track color */
+}
+
+/* Hover effect for Firefox */
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #666;  /* Thumb color when hovered in Firefox */
+}
+
